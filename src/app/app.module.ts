@@ -10,12 +10,16 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatTableModule} from '@angular/material/table';
+import { AboutMeComponent } from './pages/landing/about-me/about-me.component';
+import { MyExperienceComponent } from './pages/landing/my-experience/my-experience.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
-    HeaderComponent  ],
+    HeaderComponent,
+    AboutMeComponent,
+    MyExperienceComponent  ],
   imports: [
     BrowserModule,
     MatToolbarModule,
