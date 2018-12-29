@@ -1,0 +1,19 @@
+.pageDiv{
+  height: 100vh;
+  width: 100vw;
+}
+
+.headDiv{
+  height: 10%;
+  width: 100%;
+}
+
+.bodyDiv{
+  height: 90%;
+  width: 100%;
+}
+
+.footDiv{
+  height: 10%;
+  width: 100%;
+}

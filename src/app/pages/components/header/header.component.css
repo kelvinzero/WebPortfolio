@@ -58,3 +58,8 @@ mat-toolbar  div{
   font-palette: light;
   color: white;
 }
+
+.toolbarContainer {
+  display: inline-flex; /* or inline-flex */
+  background-color: #575859;
+}
