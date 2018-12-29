@@ -9,6 +9,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     FormsModule,
     MatSidenavModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
