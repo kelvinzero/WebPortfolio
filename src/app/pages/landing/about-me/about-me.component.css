@@ -1,0 +1,14 @@
+
+.aboutMeDiv {
+  min-height: 100vh;
+  height: fit-content;
+  background: url("../../../../assets/aboutme.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.mainContent {
+  width: 98%;
+  height: fit-content;
+  padding-left: 1%;
+  padding-right: 1%;
+}
