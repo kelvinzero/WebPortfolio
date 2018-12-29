@@ -63,15 +63,11 @@ tr:hover {
 .example-sidenav-content {
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
 .example-sidenav {
   background: url("../../../../assets/mtspokaneside.jpg") no-repeat center center;
   background-size: cover;
-  display: flex;
   height: 100%;
-  padding: 20px;
+  display: flex;
 }
-
-
