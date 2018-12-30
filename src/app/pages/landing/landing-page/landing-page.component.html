@@ -1,5 +1,5 @@
-<mat-drawer-container class="example-container">
-  <mat-drawer class="example-sidenav" mode="side" opened>
+<mat-drawer-container class="page-container">
+  <mat-drawer class="sidenav" mode="side" opened>
     <img class="myPicImage" src="../../../../assets/jcotes.jpg">
     <div class="myInfo">
       <div class="myName">Joshua Cotes</div>
@@ -13,31 +13,31 @@
           </td>
           <td class="rightCell">About Me</td>
         </tr>
-        <tr>
+        <tr (click)="scrollToHeader('myExperience')">
           <td class="leftCell">
             <mat-icon style="color: green;">multiline_chart</mat-icon>
           </td>
           <td class="rightCell">Experience</td>
         </tr>
-        <tr>
+        <tr (click)="scrollToHeader('myProjects')">
           <td class="leftCell">
             <mat-icon style="color: blue;">device_hub</mat-icon>
           </td>
           <td class="rightCell">Projects</td>
         </tr>
-        <tr>
+        <tr (click)="scrollToHeader('mySchool')">
           <td class="leftCell">
             <mat-icon style="color: darkgoldenrod;">school</mat-icon>
           </td>
           <td class="rightCell">Education</td>
         </tr>
-        <tr>
+        <tr (click)="scrollToHeader('myCV')">
           <td class="leftCell">
             <mat-icon style="color: firebrick;">description</mat-icon>
           </td>
           <td class="rightCell">CV</td>
         </tr>
-        <tr>
+        <tr (click)="scrollToHeader('contactMe')">
           <td class="leftCell">
             <mat-icon style="color: mediumseagreen;">mail</mat-icon>
           </td>
@@ -47,11 +47,11 @@
     </div>
   </mat-drawer>
 
-
-  <div class="example-sidenav-content">
-    <app-header id="aboutMe"></app-header>
+  <div class="sidenav-content">
+    <div style="margin-top: 20px;"></div>
+    <app-header id="aboutMe" [barLabel]="'About Me'"></app-header>
     <app-about-me></app-about-me>
-    <app-header id="myExperience"></app-header>
+    <app-header id="myExperience" [barLabel]="'Experience'"></app-header>
     <app-my-experience #myExperience></app-my-experience>
   </div>
 </mat-drawer-container>
