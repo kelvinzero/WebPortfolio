@@ -4,12 +4,11 @@
   margin-left: auto;
   margin-right: auto;
   width: 55%;
-  height: 55%;
-  height: 50em;
+  height: fit-content;
 }
 
 .cardTitle {
-  height: 10%;
+  height: 100px;
   border-bottom: lightgray 1px solid;
 }
 
