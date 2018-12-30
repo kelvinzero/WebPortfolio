@@ -1,10 +1,39 @@
-.cardHolder {
-}
 
 .experienceCard {
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 55%;
+  height: 55%;
   height: 50em;
+}
+
+.cardTitle {
+  height: 10%;
+  border-bottom: lightgray 1px solid;
+}
+
+.titleHolder {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  height: 100%;
+}
+
+.headerTextCompany{
+  color: darkblue;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.headerTextTitle{
+  font-size: 80%;
+  font-family: "Arial Narrow";
+  color: crimson;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.jobInfo {
+  margin-top: 5%;
 }
