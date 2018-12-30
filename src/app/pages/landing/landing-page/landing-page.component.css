@@ -17,13 +17,15 @@
 
 .myName {
   font-family: FontAwesome;
-  color: #2b2b2b;
+  color: #575859;
   font-size: xx-large;
 }
 
 .myTitle {
   font-family: 'Arial Rounded MT Bold', 'Segoe UI';
   font-size: large;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
@@ -36,6 +38,7 @@
 
 
 tr:hover {
+  cursor: pointer;
   background-color: darkgray;
 }
 
@@ -45,7 +48,7 @@ tr:hover {
   padding-left: 5px;
   padding-bottom: 10px;
   font-size: x-large;
-  font-family: 'Arial Rounded MT Bold', 'Segoe UI';
+  font-family: FontAwesome;
   color: #2b2b2b;
 }
 
@@ -61,8 +64,11 @@ tr:hover {
 }
 
 .example-sidenav-content {
+  background: url("../../../../assets/billie-holiday.png") no-repeat center center;
+  background-size: cover;
   align-items: center;
   justify-content: center;
+  padding-left: 15px;
 }
 
 .example-sidenav {

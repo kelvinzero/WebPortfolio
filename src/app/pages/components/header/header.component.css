@@ -1,65 +1,13 @@
-.fa:hover {
-  opacity: 0.7;
-}
-.headerBoxLeft{
-  width: 20vw;
-  padding-left: 5%;
-  align-self: left;
-}
-
-.headerBoxRight{
-  width: 25%;
-}
-
-mat-toolbar{
-  width: 100vw;
-}
-
-.headerBoxCenter{
-  width: 35%;
-  align-self: left;
-}
-
-.headerSpacer{
-  width: 10%;
-}
-
-mat-toolbar  div{
-  display: inline-block;
-}
-
-.headerIcons{
-  width: 25px;
-}
-
-.colorLightBlue{
-  color: lightblue;
-}
-
-.centerHeader{
-  width: 20%;;
-}
-
-.headerInfos{
-  width: fit-content;
-  padding-right: 12px;
-  padding-left: 12px;
-  font-family: 'Arial Rounded MT Bold', 'Segoe UI';
-  font-size: 130%;
-  font-palette: light;
-  color: white;
-}
-
-.headerMyName{
-  width: fit-content;
-  padding-right: 20px;
-  font-family: 'Arial Rounded MT Bold', 'Segoe UI';
-  font-size: 130%;
-  font-palette: light;
-  color: white;
-}
-
-.toolbarContainer {
-  display: inline-flex; /* or inline-flex */
+.cardStyle{
   background-color: #575859;
+  width: 100%;
+  height: fit-content;
+  margin-left: -5px;
+  margin-top: 5px;
+}
+
+.mainFont {
+  font-family: Broadway;
+  font-size: 150%;
+  color: whitesmoke;
 }

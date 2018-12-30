@@ -3,11 +3,11 @@
     <img class="myPicImage" src="../../../../assets/jcotes.jpg">
     <div class="myInfo">
       <div class="myName">Joshua Cotes</div>
-      <div class="myTitle">Full Stack Software Engineer</div>
+      <div class="myTitle">Full Stack Developer</div>
     </div>
     <div class="sidebarOptions">
       <table>
-        <tr>
+        <tr (click)="scrollToHeader('aboutMe')">
           <td class="leftCell">
             <mat-icon style="color: darkorange;">sentiment_very_satisfied</mat-icon>
           </td>
@@ -49,8 +49,10 @@
 
 
   <div class="example-sidenav-content">
+    <app-header id="aboutMe"></app-header>
     <app-about-me></app-about-me>
-    <app-my-experience></app-my-experience>
+    <app-header id="myExperience"></app-header>
+    <app-my-experience #myExperience></app-my-experience>
   </div>
 </mat-drawer-container>
 

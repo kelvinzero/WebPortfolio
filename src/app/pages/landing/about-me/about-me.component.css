@@ -2,13 +2,46 @@
 .aboutMeDiv {
   min-height: 100vh;
   height: fit-content;
-  background: url("../../../../assets/aboutme.jpg") no-repeat center center;
   background-size: cover;
 }
 
 .mainContent {
-  width: 98%;
+  width: 90%;
   height: fit-content;
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.tagLine {
+  width: 75%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-left: 10px;
+  font-size: 200%;
+  color: brown;
+  border-left: brown 10px solid;
+}
+
+.content{
+  width: 95%;
+  margin-bottom: 40px;
+  padding-left: 10px;
+  font-size: 175%;
+  color: #575859;
+}
+
+.focuses {
+  width: 95%;
+  margin-top: 100px;
+  padding-left: 10px;
+}
+
+.current {
+  font-size: 155%;
+  color: #2b2b2b;
+}
+
+.focusList {
+  padding-left: 15px;
+  font-size: 100%;
 }

@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
+  }
+
+  scrollToHeader(element) {
+    document.getElementById(element).scrollIntoView({behavior : 'smooth'});
+    console.log('scrolling to ' + element);
   }
 
 }
