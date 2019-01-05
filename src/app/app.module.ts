@@ -12,6 +12,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatTableModule} from '@angular/material/table';
 import { AboutMeComponent } from './pages/landing/about-me/about-me.component';
 import { MyExperienceComponent } from './pages/landing/my-experience/my-experience.component';
+import { MyProjectsComponent } from './pages/landing/my-projects/my-projects.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MyExperienceComponent } from './pages/landing/my-experience/my-experien
     LandingPageComponent,
     HeaderComponent,
     AboutMeComponent,
-    MyExperienceComponent  ],
+    MyExperienceComponent,
+    MyProjectsComponent  ],
   imports: [
     BrowserModule,
     MatToolbarModule,

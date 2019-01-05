@@ -14,7 +14,7 @@ export class LandingPageComponent implements OnInit {
   }
 
   scrollToHeader(element) {
-    document.getElementById(element).scrollIntoView({behavior : 'smooth'});
+    document.getElementById(element).scrollIntoView({behavior : 'smooth', block: 'start'});
     console.log('scrolling to ' + element);
   }
 
