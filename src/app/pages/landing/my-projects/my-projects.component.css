@@ -1,5 +1,69 @@
+.projectsHolder{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-height: 120vh;
+  height: fit-content;
+  background-color: transparent;
+}
 
-.projectsDiv {
+.projectsDiv{
+  width: 90%;
   min-height: 100vh;
   height: fit-content;
+}
+
+.cardSpacer {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.projectCard{
+  height: 500px;
+}
+
+.picHolder {
+  border-bottom: #575859 1px inset;
+  height: 175px;
+}
+
+.picHolder > img {
+  height: 170px;
+}
+
+.cardSpacer > div {
+  width: 300px;
+  height: 500px;
+  display: inline-block;
+  margin: 2%;
+}
+
+.titleText {
+  font-size: 115%;
+  font-family: "Berlin Sans FB Demi";
+  font-weight: bolder;
+}
+
+.titleSummary{
+  font-size: 95%;
+  font-style: italic;
+  font-family: crimson;
+}
+
+.projectCard > ul {
+  padding-top: 10px;
+  font-size: 85%;
+  text-align: left;
+  margin-top: 10px;
+  width: 100%;
+  font-family: "Bookman Old Style";
+}
+
+.projectContentDiv {
+  height: 300px;
+  width: 100%;
 }
