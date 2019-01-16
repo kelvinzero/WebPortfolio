@@ -14,6 +14,7 @@ import { AboutMeComponent } from './pages/landing/about-me/about-me.component';
 import { MyExperienceComponent } from './pages/landing/my-experience/my-experience.component';
 import { MyProjectsComponent } from './pages/landing/my-projects/my-projects.component';
 import { MyEducationComponent } from './pages/landing/my-education/my-education.component';
+import { ContactMeComponent } from './pages/landing/contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MyEducationComponent } from './pages/landing/my-education/my-education.
     AboutMeComponent,
     MyExperienceComponent,
     MyProjectsComponent,
-    MyEducationComponent  ],
+    MyEducationComponent,
+    ContactMeComponent  ],
   imports: [
     BrowserModule,
     MatToolbarModule,

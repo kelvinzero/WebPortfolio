@@ -13,7 +13,7 @@
   margin-right: auto;
 }
 
-.projectsHolder > div {
+.cardHolderDiv {
   margin: 30px;
   display: inline-block;
   width: 380px;
@@ -52,4 +52,8 @@ mat-card{
   text-align: left;
   padding-top: 10px;
   font-family: Calibri;
+}
+
+a {
+  text-decoration: none;
 }
