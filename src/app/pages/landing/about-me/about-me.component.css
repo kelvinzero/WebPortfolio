@@ -2,6 +2,9 @@
 .aboutMeDiv {
   min-height: 100vh;
   height: fit-content;
+  max-width: 98%;
+  width: 2000px;
+  min-width: 950px;
 }
 
 .mainContent {

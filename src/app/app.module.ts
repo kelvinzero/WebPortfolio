@@ -4,7 +4,7 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { LandingPageComponent } from './pages/landing/landing-page/landing-page.component';
 import { HeaderComponent } from './pages/components/header/header.component';
-import {MatToolbarModule} from '@angular/material';
+import {MatListModule, MatToolbarModule} from '@angular/material';
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
@@ -13,6 +13,7 @@ import {MatTableModule} from '@angular/material/table';
 import { AboutMeComponent } from './pages/landing/about-me/about-me.component';
 import { MyExperienceComponent } from './pages/landing/my-experience/my-experience.component';
 import { MyProjectsComponent } from './pages/landing/my-projects/my-projects.component';
+import { MyEducationComponent } from './pages/landing/my-education/my-education.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MyProjectsComponent } from './pages/landing/my-projects/my-projects.com
     HeaderComponent,
     AboutMeComponent,
     MyExperienceComponent,
-    MyProjectsComponent  ],
+    MyProjectsComponent,
+    MyEducationComponent  ],
   imports: [
     BrowserModule,
     MatToolbarModule,
@@ -31,7 +33,8 @@ import { MyProjectsComponent } from './pages/landing/my-projects/my-projects.com
     MatSidenavModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MatTableModule
+    MatTableModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

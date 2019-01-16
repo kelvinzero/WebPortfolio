@@ -25,17 +25,11 @@
           </td>
           <td class="rightCell">Projects</td>
         </tr>
-        <tr (click)="scrollToHeader('mySchool')">
+        <tr (click)="scrollToHeader('myEducation')">
           <td class="leftCell">
             <mat-icon style="color: darkgoldenrod;">school</mat-icon>
           </td>
           <td class="rightCell">Education</td>
-        </tr>
-        <tr (click)="scrollToHeader('myCV')">
-          <td class="leftCell">
-            <mat-icon style="color: firebrick;">description</mat-icon>
-          </td>
-          <td class="rightCell">CV</td>
         </tr>
         <tr (click)="scrollToHeader('contactMe')">
           <td class="leftCell">
@@ -55,6 +49,8 @@
     <app-my-experience #myExperience></app-my-experience>
     <app-header id="myProjects" [barLabel]="'Projects'"></app-header>
     <app-my-projects #myProjects></app-my-projects>
+    <app-header id="myEducation" [barLabel]="'Education'"></app-header>
+    <app-my-education #myEducation></app-my-education>
   </div>
 </mat-drawer-container>
 

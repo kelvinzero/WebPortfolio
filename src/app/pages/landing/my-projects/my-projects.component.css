@@ -1,51 +1,45 @@
-.projectsHolder{
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+.pageDiv{
   width: 100%;
-  min-height: 120vh;
-  height: fit-content;
-  background-color: transparent;
-}
-
-.projectsDiv{
-  width: 90%;
   min-height: 100vh;
   height: fit-content;
 }
-
-.cardSpacer {
-  padding-top: 2%;
-  padding-bottom: 2%;
+.projectsHolder {
+  min-height: 100vh;
+  height: fit-content;
   width: 100%;
-  justify-content: center;
+  max-width: 1400px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.projectCard{
-  height: 500px;
+.projectsHolder > div {
+  margin: 30px;
+  display: inline-block;
+  width: 380px;
+  height: 520px;
+  vertical-align: top;
 }
 
-.picHolder {
+mat-card{
+  width: 100%;
+  height: 100%;
+}
+
+.pictureDiv {
   border-bottom: #575859 1px inset;
   height: 175px;
 }
 
-.picHolder > img {
+.pictureDiv > img {
   height: 170px;
 }
 
-.cardSpacer > div {
-  width: 300px;
-  height: 500px;
-  display: inline-block;
-  margin: 2%;
-}
-
-.titleText {
+.titleHolder {
   font-size: 115%;
   font-family: "Berlin Sans FB Demi";
   font-weight: bolder;
+  padding-top: 5px;
 }
 
 .titleSummary{
@@ -54,16 +48,8 @@
   font-family: crimson;
 }
 
-.projectCard > ul {
-  padding-top: 10px;
-  font-size: 85%;
+.listDiv{
   text-align: left;
-  margin-top: 10px;
-  width: 100%;
-  font-family: "Bookman Old Style";
-}
-
-.projectContentDiv {
-  height: 300px;
-  width: 100%;
+  padding-top: 10px;
+  font-family: Calibri;
 }
