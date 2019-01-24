@@ -64,7 +64,7 @@ tr:hover {
 }
 
 .sidenav-content {
-  background: url("../../../../assets/billie-holiday.png") no-repeat center center;
+  background: url("../../../../assets/billie-holiday.png") no-repeat center;
   background-size: cover;
   align-items: center;
   justify-content: center;
