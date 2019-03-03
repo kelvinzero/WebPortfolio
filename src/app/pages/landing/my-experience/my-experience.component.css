@@ -1,14 +1,41 @@
 
-.experienceDiv {
-  min-height: 100vh;
+.experienceCard {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  max-width: 95%;
+  width: 1200px;
+  min-width: 950px;
   height: fit-content;
-  width: 100%;
-  background-size: cover;
 }
 
-.mainContent {
-  width: 98%;
-  height: fit-content;
-  padding-left: 1%;
-  padding-right: 1%;
+.cardTitle {
+  height: 100px;
+  border-bottom: lightgray 1px solid;
+}
+
+.titleHolder {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  height: 100%
+}
+
+.headerTextCompany{
+  color: darkblue;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.headerTextTitle{
+  font-size: 80%;
+  font-family: "Arial Narrow";
+  color: crimson;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.jobInfo {
+  margin-top: 5%;
 }
